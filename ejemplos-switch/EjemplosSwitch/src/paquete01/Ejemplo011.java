@@ -21,8 +21,8 @@ public class Ejemplo011 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         System.out.println("Ingrese el nombre del día de la semana");
-        String cadena = entrada.nextLine();
-        cadena = cadena.toLowerCase();
+        String cadena = entrada.nextLine(); //LunES
+        cadena = cadena.toLowerCase(); // lunes
         switch(cadena){
             case "lunes":
                 System.out.printf("%s es el primer día "
